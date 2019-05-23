@@ -27,7 +27,7 @@ args = vars(ap.parse_args())
 
 print("[INFO] loading cifar10 data")
 
-(trainX, trainY), (testX, testY)= cifar10.loadData()
+(trainX, trainY), (testX, testY)= cifar10.load_Data()#這裡麻煩留意一下load_Data() 不是 loadData()
 
 trainX = trainX.astype("float") / 255.0
 testX = testX.astype("float") / 255.0
