@@ -31,7 +31,7 @@ lb = LabelBinarizer()
 trainY = lb.fit_transform(trainY)
 testY = lb.transform(testY)
 
-labelNames = ["airplane", "automobile", "birds", "cat", "deer", "dog", "frog",
+labelNames = ["airplane", "automobile", "birds", "cat", "deer", "dog",
     "frog", "horse", "ship", "truck"]
 
 print("[INFO] compiling model")
